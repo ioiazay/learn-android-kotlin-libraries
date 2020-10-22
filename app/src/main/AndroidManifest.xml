@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ioia.learn_android_kotlin_libraries">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".auth.AuthActivity"></activity>
+        <activity android:name=".midtrans.MidtransActivity" />
+        <activity android:name=".firebase.FirebaseActivity" />
+        <activity android:name=".one_signal.OneSignalActivity" />
+        <activity android:name=".zxing_barcode.ZxingBarcodeActivity" />
+        <activity android:name=".page_stepper.PageStepperActivity" />
+        <activity android:name=".image_processing.ImageProcessingActivity" />
+        <activity android:name=".carousel_view.CarouselViewActivity" />
+        <activity android:name=".number_picker.NumberPickerActivity" />
+        <activity android:name=".data_visualization.DataVisualizationActivity" />
+        <activity android:name=".table_view.TableViewActivity" />
+        <activity android:name=".glide.GlideActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
